@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GateX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">User Id</string>
+    <string name="email">john.doe@example.com</string>
+    <string name="Add_heading"> </string>
+    <string name="Add_name">Enter Name</string>
+    <string name="Add_Phone">Enter Phone Number</string>
+    <string name="Add_purpose">Enter Purpose</string>
+    <string name="Add_btn">Take Picture</string>
+    <string name="button">Button</string>
+    <string name="log_out">Log Out</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

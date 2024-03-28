@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_entries"
+    android:padding="16dp">
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:padding="8dp">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Name"
+                android:textStyle="bold"
+                android:paddingEnd="8dp" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Phone"
+                android:textStyle="bold"
+                android:paddingEnd="8dp" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Purpose"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="Remove"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_span="4"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

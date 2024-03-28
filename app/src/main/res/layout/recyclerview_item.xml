@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:text="Name"
+        android:paddingEnd="8dp" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/nameTextView"
+        android:layout_marginStart="7dp"
+        android:text="Phone"
+        android:paddingEnd="8dp" />
+
+    <TextView
+        android:id="@+id/purposeTextView"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/phoneTextView"
+        android:layout_marginStart="16dp"
+        android:text="Purpose" />
+
+    <Button
+        android:id="@+id/outButton"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#C04000"
+        android:text="Out"
+        android:textStyle="bold" />
+
+</RelativeLayout>

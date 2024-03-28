@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254407461312",
+    "project_id": "gatex-d7bf4",
+    "storage_bucket": "gatex-d7bf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254407461312:android:9acaf3266997cf5123e025",
+        "android_client_info": {
+          "package_name": "com.example.gatex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqlhCJYL27qUPbpRLtZCg1XAbISZS07yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
